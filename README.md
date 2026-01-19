@@ -30,7 +30,7 @@ These issues highlight the need for a **centralized and reliable event managemen
 
 Festio aims to bridge the communication gap between students and event organizers by providing a single, unified platform that improves participation, coordination, and overall event experience.
 
-## 🛠️ Tech Stack (Suggested)
+## Tech Stack 
 - Frontend: React / HTML, CSS, JavaScript  
 - Backend: Node.js, Express  
 - Database: MongoDB / MySQL  
@@ -45,7 +45,7 @@ Festio aims to bridge the communication gap between students and event organizer
 ## Contribution
 Contributions are welcome! Feel free to fork the repository and submit pull requests.
 
-##PROTOTYPE
+## PROTOTYPE
 <img width="1600" height="861" alt="image" src="https://github.com/user-attachments/assets/0dc42556-7b72-49e6-bbee-f73e47d21fb5" />
 <img width="1600" height="867" alt="image" src="https://github.com/user-attachments/assets/faf754b3-5eef-48b6-9c11-b11c78c103ae" />
 <img width="1600" height="848" alt="image" src="https://github.com/user-attachments/assets/76afb568-e746-40a6-87fb-d41282e64491" />

@@ -10,8 +10,8 @@ import { format } from 'date-fns';
 import { motion } from 'framer-motion';
 import { toast } from 'sonner';
 
-import EventForm from '../components/events/EventForm';
-import StatsCard from '../components/dashboard/StatsCard';
+import EventForm from 'EventForm';
+import StatsCard from 'StatsCard';
 
 export default function AdminPanel() {
   const [user, setUser] = useState(null);

@@ -1,0 +1,44 @@
+{
+  "name": "Registration",
+  "type": "object",
+  "properties": {
+    "event_id": {
+      "type": "string",
+      "description": "ID of the event"
+    },
+    "event_title": {
+      "type": "string",
+      "description": "Title of the event for quick reference"
+    },
+    "user_email": {
+      "type": "string",
+      "description": "Email of the registered user"
+    },
+    "user_name": {
+      "type": "string",
+      "description": "Name of the registered user"
+    },
+    "registration_date": {
+      "type": "string",
+      "format": "date-time",
+      "description": "When the user registered"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "confirmed",
+        "cancelled",
+        "attended"
+      ],
+      "default": "confirmed"
+    },
+    "notes": {
+      "type": "string",
+      "description": "Any additional notes from the user"
+    }
+  },
+  "required": [
+    "event_id",
+    "user_email"
+  ]
+}

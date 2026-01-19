@@ -5,10 +5,10 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Button } from "@/components/ui/button";
 import { toast } from "sonner";
 import { Calendar, Users, Star, TrendingUp, Plus } from 'lucide-react';
-import EventCard from '../components/events/EventCard';
-import EventFilters from '../components/events/EventFilters';
-import EventDetailsModal from '../components/events/EventDetailsModal';
-import StatsCard from '../components/dashboard/StatsCard';
+import EventCard from 'EventCard';
+import EventFilters from 'EventFilters';
+import EventDetailsModal from 'EventDetailsModal';
+import StatsCard from 'StatsCard';
 
 export default function Home() {
   const [user, setUser] = useState(null);

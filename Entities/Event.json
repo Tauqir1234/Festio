@@ -1,0 +1,81 @@
+{
+  "name": "Event",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "Event title"
+    },
+    "description": {
+      "type": "string",
+      "description": "Detailed description of the event"
+    },
+    "date": {
+      "type": "string",
+      "format": "date",
+      "description": "Event date"
+    },
+    "start_time": {
+      "type": "string",
+      "description": "Event start time"
+    },
+    "end_time": {
+      "type": "string",
+      "description": "Event end time"
+    },
+    "venue": {
+      "type": "string",
+      "description": "Location/venue of the event"
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "academic",
+        "cultural",
+        "sports",
+        "workshop",
+        "seminar",
+        "fest",
+        "other"
+      ],
+      "description": "Event category"
+    },
+    "max_capacity": {
+      "type": "number",
+      "description": "Maximum number of participants"
+    },
+    "registration_deadline": {
+      "type": "string",
+      "format": "date",
+      "description": "Last date to register"
+    },
+    "image_url": {
+      "type": "string",
+      "description": "Event banner image URL"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "upcoming",
+        "ongoing",
+        "completed",
+        "cancelled"
+      ],
+      "default": "upcoming"
+    },
+    "organizer": {
+      "type": "string",
+      "description": "Department or club organizing the event"
+    },
+    "contact_email": {
+      "type": "string",
+      "description": "Contact email for queries"
+    }
+  },
+  "required": [
+    "title",
+    "date",
+    "venue",
+    "category"
+  ]
+}

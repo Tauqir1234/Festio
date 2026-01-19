@@ -12,8 +12,8 @@ import {
   Calendar, Users, Plus, Edit, Trash2, Eye,
   BarChart3, ClipboardList, Settings, CheckCircle
 } from 'lucide-react';
-import EventForm from '../components/events/EventForm';
-import StatsCard from '../components/dashboard/StatsCard';
+import EventForm from 'EventForm';
+import StatsCard from 'StatsCard';
 
 const categoryColors = {
   academic: "bg-blue-100 text-blue-700",
